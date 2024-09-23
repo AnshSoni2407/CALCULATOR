@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="complete calculat.css" />
+  </head>
+  <body>
+    <form name="form">
+      <input type="text" name="DisplaY" placeholder="Hello World!" />
+      <input type="button" value="1" onclick="form.DisplaY.value +='1'" />
+      <input type="button" value="2" onclick="form.DisplaY.value +='2'" />
+      <input type="button" value="3" onclick="form.DisplaY.value +='3'" />
+      <input type="button" value= "DEL" onclick="form.DisplaY.value =
+      form.DisplaY.value.slice(0, -1)"/>
+
+      <input type="button" value="4" onclick="form.DisplaY.value +='4'" />
+      <input type="button" value="5" onclick="form.DisplaY.value +='5'" />
+      <input type="button" value="6" onclick="form.DisplaY.value +='6'" />
+      <input type="button" value="+" onclick="form.DisplaY.value +='+'" />
+      <input type="button" value="7" onclick="form.DisplaY.value +='7'" />
+      <input type="button" value="8" onclick="form.DisplaY.value +='8'" />
+      <input type="button" value="9" onclick="form.DisplaY.value +='9'" />
+      <input type="button" value="-" onclick="form.DisplaY.value +='-'" />
+
+      <input type="button" value="0" onclick="form.DisplaY.value +='0'" />
+
+      <input type="button" value="/" onclick="form.DisplaY.value +='/'" />
+      <input type="button" value="*" onclick="form.DisplaY.value +='*'" />
+
+      <input
+        type="button"
+        value="="
+        onclick="form.DisplaY.value =eval(form.DisplaY.value)"
+      />
+      <input type="button" value="AC" onclick="form.DisplaY.value =''" />
+    </form>
+  </body>
+</html>
